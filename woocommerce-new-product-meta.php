@@ -49,6 +49,11 @@ class woo_new_prd_meta
 		 */
 		include_once PNM_INC_DIR . '/admin/class-product-meta-activator.php';
 
+		/**
+		 * Woocommerce product single page new fields
+		 */
+		include_once PNM_INC_DIR . '/product-single/class-product-new-field.php';
+
 	}
 
 }
